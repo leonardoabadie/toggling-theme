@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" width="42" height="42">
+	<title>moon</title>
+	<defs>
+		<image  width="42" height="42" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAAXNSR0IB2cksfwAAAWtQTFRFAAAAdrT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/drT/QqFXuQAAAHl0Uk5TAAE2hcbILEK//4chtO8qAlryawaE/gqfSgWYe3z6QQPZ7hzQDei+BHG2zggY4xb8MaFmre31LpD0Ocn3nOCJEL2kkuu3fs/K+KhAo8fsiFUyEhRQf8P2c/Pm5OXx+xmyP66LH1kpjzisCeoLI3CN2D4722wVWI50NYCx1LsAAAF7SURBVHicjdT5OwJRFAbgO2k7RJFBqJESKkJkXyMxIWui7GRfsv75zKRm6c698/04z/vMOXPPPYOQLIyhxmgyI3oYixX+UkuXdTYBQn0DDdodjaKEJpp0NrMlaW2hyVb4TxtFutrL0kR7aUdZQidFGtwV6iFLrqsivd16y4PPT5TOHokGeom0T5LQT64flFFjiCTDrIwODJKoQyYhMkSiw3IKIyTqU9Ao6QhGFXQsRqCgzLhdN52Y1E1hyqlJp9V2htGis2rKznEYxsxzaEFNgV2sHm9oKb6MVqooQEK9YZ5VADcyYCgk1yzSLLh1Xlj8FHJt4CwkTZtb6fD2jnl3b/9AfJJBiMdSoefD7NFxrnzx8icIpSNaVhGb0MupHsmeCTSW1EHPS594QZfeyxK1p6jlr8ond52l0BtpGoU4Ud7eySZXuCdI/kEx5cegFsw/qffN/4wfxcsr5kq+WathLoP/NzOeqFsBi+8fWCgm/PkVKIpJ8N8/yiZ/AXniQWmuFQ/sAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

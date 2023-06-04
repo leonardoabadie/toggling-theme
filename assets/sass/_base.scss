@@ -1,0 +1,34 @@
+@use './variables' as *;
+
+@mixin FlexBox($direction, $justify:none, $align:none, $gap:none) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin obterTema($temas : $temas) { // $temas recebe $temas (do arquivo importado (Ln 1) )
+    /*
+    * $tema pode ser entendido como a chave do array $temas (portanto, guarda o seu nome, seja 'claro' ou 'escuro')
+    * $map pode ser entendido como o valor da chave $tema (nesse caso, é como outro array, já que tanto para 'claro' quanto escuro
+    * possuem outros valores definidos)
+    */
+    @each $tema, $map in $temas {
+        &.tema-#{$tema} {
+            $tema-map: () !global;
+            // $propriedade pode ser entendida aqui como (Ex.: corFundoBody ... corTexto etc..)
+            @each $propriedade, $sub-map in $map {
+                $valor: map-get(map-get($temas, $tema), '#{$propriedade}');
+                $tema-map: map-merge($tema-map, ($propriedade : $valor)) !global;
+            }
+
+            @content;
+            $tema-map: null !global;
+        }
+    }
+}
+
+@function obterCor($propriedade) {
+    @return map-get($tema-map, $propriedade);
+}
