@@ -1,2 +1,5 @@
-# toggling-theme
-Learning how to toggle theme using javascript and scss (pt-BR)
+# Toggle Theme
+
+This challenge aims to learn how to toggle light/dark theme using buttons, javascript and css (+ scss)
+
+![](demonstration.gif)
